@@ -43,3 +43,9 @@ In this chapter, we will go through the following PHP array sort functions:
 Some predefined variables in PHP are "superglobals", which means that they are always accessible, regardless of scope - and you can access them from any function, class or file without having to do anything special.
 
 The PHP superglobal variables are: `$GLOBALS`, `$_SERVER`, `$_REQUEST`, `$_POST`, `$_GET`, `$_FILES`, `$_ENV`, `$_COOKIE`, `$_SESSION`.
+
+## PHP Composer - `update` Vs `install`
+
+`composer update` is mostly used in the 'development' phase, to upgrade our project packages. `composer install` is primarily used in the 'deploying phase' to install our application on a production server or on a testing environment, using the same dependencies stored in the `composer.lock` file created by `composer update`.
+
+Read more [here](https://riptutorial.com/php/example/7331/difference-between--composer-install--and--composer-update-).
